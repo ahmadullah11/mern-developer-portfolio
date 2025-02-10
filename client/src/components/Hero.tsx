@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { FileDown } from "lucide-react";
 
 export function Hero() {
   return (
@@ -25,6 +26,12 @@ export function Hero() {
             </Button>
             <Button size="lg" variant="outline" asChild>
               <a href="#projects">View My Work</a>
+            </Button>
+            <Button size="lg" variant="secondary" asChild>
+              <a href="/resume.pdf" download="Ahmad_Ullah_Resume.pdf" className="flex items-center gap-2">
+                <FileDown className="h-5 w-5" />
+                Download Resume
+              </a>
             </Button>
           </div>
           <div className="flex gap-6 justify-center">
