@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
-import { FileDown } from "lucide-react";
+import { FileDown, User } from "lucide-react";
 
 export function Hero() {
   return (
@@ -13,6 +14,14 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
+          <div className="mb-8 flex justify-center">
+            <Avatar className="h-32 w-32 border-4 border-primary">
+              <AvatarImage src="/profile.jpg" alt="Ahmad Ullah" />
+              <AvatarFallback>
+                <User className="h-16 w-16" />
+              </AvatarFallback>
+            </Avatar>
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold font-poppins mb-6">
             Hi, I'm Ahmad Ullah
             <span className="text-primary">.</span>
