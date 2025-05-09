@@ -5,19 +5,19 @@ const experiences = [
   {
     title: "Senior MERN Stack Developer",
     company: "Tech Solutions Inc.",
-    period: "2021 - Present",
+    period: "2024 - Present",
     description: "Led development of multiple full-stack web applications using MERN stack.",
   },
   {
     title: "Full Stack Developer",
     company: "Digital Innovations",
-    period: "2019 - 2021",
+    period: "2023 - 2024",
     description: "Developed and maintained client projects using React and Node.js.",
   },
   {
     title: "Frontend Developer",
     company: "WebTech Studio",
-    period: "2018 - 2019",
+    period: "2022 - 2023",
     description: "Created responsive user interfaces using React and modern CSS frameworks.",
   },
 ];

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
 import { FileDown, User } from "lucide-react";
 
 export function Hero() {
@@ -18,7 +18,8 @@ export function Hero() {
             <Avatar className="h-32 w-32 border-4 border-primary">
               <AvatarImage src="/profile.jpg" alt="Ahmad Ullah" />
               <AvatarFallback>
-                <User className="h-16 w-16" />
+                <User className="h-20 w-20" />
+                <img src="../../public/black-picture.png" alt="" />
               </AvatarFallback>
             </Avatar>
           </div>
@@ -43,23 +44,23 @@ export function Hero() {
               </a>
             </Button>
           </div>
-          <div className="flex gap-6 justify-center">
+          <div className="flex gap-6 justify-center ">
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ahmadullah11" target="_blank" rel="noopener noreferrer">
                 <SiGithub className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ahmad-ullah-36945b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                 <SiLinkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                <SiX className="h-5 w-5" />
-                <span className="sr-only">X (formerly Twitter)</span>
+              <a href="https://wa.me/+923003331124" target="_blank" rel="noopener noreferrer">
+                <SiWhatsapp className="h-5 w-5" />
+                <span className="sr-only">WhatsApp</span>
               </a>
             </Button>
           </div>

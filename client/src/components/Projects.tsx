@@ -6,26 +6,49 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and MongoDB.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Barber Shop Website",
+    description: "A modern and responsive Barber Shop website built using React and Tailwind CSS. It features an interactive booking system, service showcase, and customer testimonials.",
+    tech: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/your-repo",
+    live: "https://your-live-site.com",
   },
   {
-    title: "Task Management App",
-    description: "Real-time task management application with authentication.",
-    tech: ["React", "TypeScript", "Express", "Socket.io"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Airbnb Clone",
+    description: "A fully responsive Airbnb clone with property listings, user authentication, and booking functionality.",
+    tech: ["Bootstrap", "Node.js", "Express", "MongoDB", "React"],
+    github: "https://github.com/your-repo",
+    live: "https://your-live-site.com",
   },
   {
-    title: "Blog Platform",
-    description: "Modern blogging platform with markdown support.",
-    tech: ["Next.js", "TailwindCSS", "MongoDB"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Full-Stack Developer Portfolio",
+    description: "A responsive and dynamic full-stack portfolio showcasing my projects, skills, and experience. Features include contact forms, project highlights, and a blog section.",
+    tech: ["React", "Tailwind CSS", "TypeScript", "Express.js", "MongoDB", "Node.js"],
+    github: "https://github.com/your-repo",
+    live: "https://your-live-site.com",
   },
+  {
+    title: "Frontend Developer Portfolio",
+    description: "A sleek and modern frontend portfolio built with React (Vite) and Tailwind CSS. Showcases projects, skills, and contact details with smooth animations.",
+    tech: ["React (Vite)", "Tailwind CSS"],
+    github: "https://github.com/your-repo",
+    live: "https://your-live-site.com",
+  },
+  {
+    "title": "Frontend Music Website",
+    "description": "A sleek and responsive frontend music website built with Next.js and Tailwind CSS. Features include a dynamic music player interface, smooth transitions, and user-friendly design.",
+    "tech": ["Next.js", "React", "Tailwind CSS"],
+    "github": "https://github.com/your-repo",
+    "live": "https://your-live-site.com"
+  },
+  {
+    "title": "Batting Website",
+    "description": "A sleek and modern website built to track and display batting stats. Features include player profiles, real-time performance tracking, and interactive graphs.",
+    "tech": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "github": "https://github.com/your-repo",
+    "live": "https://your-live-site.com"
+  }
+   
+    
 ];
 
 export function Projects() {
