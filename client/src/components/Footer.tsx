@@ -20,7 +20,8 @@ const socialLinks = [
   },
 ];
 
-export function Footer() {
+// Footer component
+export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   // Scroll to top function
@@ -52,7 +53,7 @@ export function Footer() {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-full"
+                className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-full border-2 border-transparent hover:border-primary p-2"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 aria-label={link.name}
@@ -79,4 +80,4 @@ export function Footer() {
       </div>
     </motion.footer>
   );
-}
+};
